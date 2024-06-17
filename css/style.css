@@ -1,0 +1,80 @@
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:dodgerblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    padding: 10px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover{
+    color: black;
+}
+
+nav a{
+    color:ghostwhite;
+    text-decoration: none;  
+    padding: 0px 5px 0px 0;
+    font-size: 15pt;
+    position: relative;
+
+}
+
+nav a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color:black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+nav a:hover::after{
+    width: 100%;
+}
+
+.banner-top{
+    background: url(../img/images.png);
+    height: 90vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 980px;
+}
+
+
+.bloco{
+    display: flex;
+
+}
+
+
+td{
+    color: azure;
+    background-color: black;
+}
+
+caption{
+    color: azure;
+    background-color: dodgerblue;
+}
+
+
