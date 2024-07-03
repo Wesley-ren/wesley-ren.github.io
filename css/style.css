@@ -6,8 +6,8 @@
 nav{
     display: flex;
     justify-content: space-around;
-    background-color:dodgerblue;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    background-color:rgb(62, 190, 90);
+    box-shadow: 0 4px 8px 0 rgba(30, 255, 0, 0.6);
 }
 
 ul{
@@ -21,16 +21,16 @@ li{
 
 a{
     text-decoration: none;
-    color:whitesmoke;
+    color:white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a:hover{
-    color: black;
+    color: rgb(51, 255, 0);
 }
 
 nav a{
-    color:ghostwhite;
+    color:black;
     text-decoration: none;  
     padding: 0px 5px 0px 0;
     font-size: 15pt;
@@ -42,7 +42,7 @@ nav a::after{
     content: "";
     width: 0%;
     height: 4px;
-    background-color:black;
+    background-color:rgb(51, 255, 0);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -53,7 +53,7 @@ nav a:hover::after{
 }
 
 .banner-top{
-    background: url(../img/images.png);
+    background: url(../img/Campo-e-Cidade-na-Educacao-Infantil.jpg);
     height: 90vh;
     text-align: center;
     background-repeat: no-repeat;
@@ -63,18 +63,10 @@ nav a:hover::after{
 
 .bloco{
     display: flex;
-
 }
 
+.bloco{
+    margin:20px;
+    padding:20px;
 
-td{
-    color: azure;
-    background-color: black;
 }
-
-caption{
-    color: azure;
-    background-color: dodgerblue;
-}
-
-
